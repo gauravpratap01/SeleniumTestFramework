@@ -24,6 +24,7 @@ public class ContactsPageTest extends TestBase {
 	
 	@BeforeMethod
 	public void setup() {
+		//calling base class method
 		initialization();
 		contactsPage=new ContactsPage();
 		testUtil = new TestUtil();
