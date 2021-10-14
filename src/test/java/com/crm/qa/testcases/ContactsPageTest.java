@@ -19,6 +19,7 @@ public class ContactsPageTest extends TestBase {
 	String sheetName="Contacts";
 	
 	public ContactsPageTest() {
+		//calling parent class constructor
 		super();
 	}
 	
