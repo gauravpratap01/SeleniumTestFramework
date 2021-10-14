@@ -19,7 +19,7 @@ public class ContactsPageTest extends TestBase {
 	String sheetName="Contacts";
 	
 	public ContactsPageTest() {
-		//calling parent class constructor
+		//calling parent class constructor for git
 		super();
 	}
 	
