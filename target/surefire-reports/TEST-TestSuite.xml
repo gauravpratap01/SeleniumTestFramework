@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="182.89" tests="12" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="165.804" tests="12" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -13,12 +13,13 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="suiteXmlFile" value="**testng.xml"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="SG"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\prata\AppData\Local\Temp\surefire18029643151522138308\surefirebooter3741662548490206048.jar C:\Users\prata\AppData\Local\Temp\surefire18029643151522138308 2021-10-17T16-13-42_946-jvmRun1 surefire12017008347898186488tmp surefire_01706342129806804069tmp"/>
+    <property name="sun.java.command" value="C:\Users\prata\AppData\Local\Temp\surefire12907579545374252758\surefirebooter1924220094902336407.jar C:\Users\prata\AppData\Local\Temp\surefire12907579545374252758 2021-10-17T17-27-05_366-jvmRun1 surefire10728436578699519479tmp surefire_04085029450747104507tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\prata\git\SeleniumTestFramework\SampleTestFrameworkGPS\target\test-classes;C:\Users\prata\git\SeleniumTestFramework\SampleTestFrameworkGPS\target\classes;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\prata\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\prata\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\prata\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\prata\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prata\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\prata\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\prata\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prata\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prata\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\prata\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\prata\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.0\webdrivermanager-4.4.0.jar;C:\Users\prata\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\prata\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\prata\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\prata\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\prata\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\prata\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\prata\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\prata\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\prata\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\prata\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\prata\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\prata\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\prata\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\prata\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\prata\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prata\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\prata\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\prata\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\prata\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\prata\.m2\repository\org\apache\poi\poi-scratchpad\4.1.0\poi-scratchpad-4.1.0.jar;C:\Users\prata\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\prata\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\prata\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\prata\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\prata\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\prata\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\prata\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\prata\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\prata\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\prata\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\prata\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\prata\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\prata\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\prata\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\prata\AppData\Local\Temp\surefire18029643151522138308\surefirebooter3741662548490206048.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\prata\AppData\Local\Temp\surefire12907579545374252758\surefirebooter1924220094902336407.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
@@ -61,36 +62,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="titleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.008">
+  <testcase name="titleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.002">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 35637
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 24209
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:13:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:27:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="crmLogoTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.158">
+  <testcase name="crmLogoTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.054">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 Trying to find Element By : By.xpath: (//img[@class='img-responsive'])[1]
 Found Element By : By.xpath: (//img[@class='img-responsive'])[1]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 29690
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 25993
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:14:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:27:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="5.215">
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="6.049">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 Trying to find Element By : By.name: username
@@ -99,14 +100,14 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9984fd96849b92aa6ccd1bbb07febd2d)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9984fd96849b92aa6ccd1bbb07febd2d)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (733a149239facec0b00196e5d8f3ff56)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (733a149239facec0b00196e5d8f3ff56)] -> xpath: //input[@type='submit']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 46122
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 45826
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:15:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:28:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
@@ -119,18 +120,18 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (772593c39f2ebc373196d6bd6b22a36a)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (772593c39f2ebc373196d6bd6b22a36a)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d5cc5be84e7dfdc3e0cedd9148096f5)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4d5cc5be84e7dfdc3e0cedd9148096f5)] -> xpath: //input[@type='submit']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 49125
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 42495
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:13:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:27:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyUserNameExistTest" classname="com.crm.qa.testcases.HomePageTest" time="0.181">
+  <testcase name="verifyUserNameExistTest" classname="com.crm.qa.testcases.HomePageTest" time="0.061">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 Trying to find Element By : By.name: username
@@ -139,20 +140,20 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (751eb973132287c00e26ab13b5a2deb3)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (751eb973132287c00e26ab13b5a2deb3)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (a1285b6af3cd0e7b5015378938af84c4)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (a1285b6af3cd0e7b5015378938af84c4)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //td[contains(text(),'User: Gaurav Singh')]
 Found Element By : By.xpath: //td[contains(text(),'User: Gaurav Singh')]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 30475
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 46156
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:14:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:27:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.454">
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="0.921">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 Trying to find Element By : By.name: username
@@ -161,22 +162,22 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (eefc99e9b73ad5f5e889856c49bb0fdb)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (eefc99e9b73ad5f5e889856c49bb0fdb)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (62780ec8111c7d1229f472c6ec006ab4)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (62780ec8111c7d1229f472c6ec006ab4)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
 Found Element By : By.xpath: //a[contains(text(),'Contacts')]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (eefc99e9b73ad5f5e889856c49bb0fdb)] -> xpath: //a[contains(text(),'Contacts')]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (eefc99e9b73ad5f5e889856c49bb0fdb)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (62780ec8111c7d1229f472c6ec006ab4)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (62780ec8111c7d1229f472c6ec006ab4)] -> xpath: //a[contains(text(),'Contacts')]]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 19527
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 5100
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:15:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:28:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyContactsPageLabelTest" classname="com.crm.qa.testcases.ContactsPageTest" time="1.156">
+  <testcase name="verifyContactsPageLabelTest" classname="com.crm.qa.testcases.ContactsPageTest" time="1.059">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 Trying to find Element By : By.name: username
@@ -185,33 +186,33 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (754cda88eac852ed77fe86ee42b5571e)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (754cda88eac852ed77fe86ee42b5571e)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7266341aac19e974d1b5cd8f3f7b634e)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7266341aac19e974d1b5cd8f3f7b634e)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
 Found Element By : By.xpath: //a[contains(text(),'Contacts')]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (754cda88eac852ed77fe86ee42b5571e)] -> xpath: //a[contains(text(),'Contacts')]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (754cda88eac852ed77fe86ee42b5571e)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7266341aac19e974d1b5cd8f3f7b634e)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7266341aac19e974d1b5cd8f3f7b634e)] -> xpath: //a[contains(text(),'Contacts')]]
 Trying to find Element By : By.xpath: //td[contains(text(),'Contacts')]
 Found Element By : By.xpath: //td[contains(text(),'Contacts')]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 44104
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 46988
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:14:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:27:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="selectContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="11.612">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Test2 Test2&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input&quot;}&#10;  (Session info: chrome=94.0.4606.81)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-AUUJL9B&apos;, ip: &apos;192.168.1.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c0455b4cef32f0a1193a3fcc7c36803b&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Test2 Test2&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="selectContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="11.198">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Test2 Test2&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input&quot;}&#10;  (Session info: chrome=94.0.4606.81)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-AUUJL9B&apos;, ip: &apos;192.168.1.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 25cb56fac2004710bbf684a4ce28f5e8&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Test2 Test2&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Test2 Test2']//parent::td[@class='datalistrow']//preceding-sibling::td//input"}
   (Session info: chrome=94.0.4606.81)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-AUUJL9B', ip: '192.168.1.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0455b4cef32f0a1193a3fcc7c36803b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cb56fac2004710bbf684a4ce28f5e8
 *** Element info: {Using=xpath, value=//a[text()='Test2 Test2']//parent::td[@class='datalistrow']//preceding-sibling::td//input}
 	at com.crm.qa.testcases.ContactsPageTest.selectContactsTest(ContactsPageTest.java:47)
 ]]></failure>
@@ -223,12 +224,12 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0455b4cef32f0a1193a3fcc7c36803b)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (c0455b4cef32f0a1193a3fcc7c36803b)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (25cb56fac2004710bbf684a4ce28f5e8)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (25cb56fac2004710bbf684a4ce28f5e8)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
 Found Element By : By.xpath: //a[contains(text(),'Contacts')]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0455b4cef32f0a1193a3fcc7c36803b)] -> xpath: //a[contains(text(),'Contacts')]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (c0455b4cef32f0a1193a3fcc7c36803b)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (25cb56fac2004710bbf684a4ce28f5e8)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (25cb56fac2004710bbf684a4ce28f5e8)] -> xpath: //a[contains(text(),'Contacts')]]
 Trying to find Element By : By.xpath: //a[text()='Test2 Test2']//parent::td[@class='datalistrow']//preceding-sibling::td//input
 Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Test2 Test2']//parent::td[@class='datalistrow']//preceding-sibling::td//input"}
   (Session info: chrome=94.0.4606.81)
@@ -236,28 +237,28 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-AUUJL9B', ip: '192.168.1.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0455b4cef32f0a1193a3fcc7c36803b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cb56fac2004710bbf684a4ce28f5e8
 *** Element info: {Using=xpath, value=//a[text()='Test2 Test2']//parent::td[@class='datalistrow']//preceding-sibling::td//input}
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 4383
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 1293
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:14:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:27:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="selectMultipleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="11.652">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Ui Ui&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input&quot;}&#10;  (Session info: chrome=94.0.4606.81)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-AUUJL9B&apos;, ip: &apos;192.168.1.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0768afdd61f266cea4d7e0fbf6a3de52&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Ui Ui&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="selectMultipleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="11.172">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Ui Ui&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input&quot;}&#10;  (Session info: chrome=94.0.4606.81)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-AUUJL9B&apos;, ip: &apos;192.168.1.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bbd64a37b176a07379ec58d6cb1d9ea9&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Ui Ui&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td//input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Ui Ui']//parent::td[@class='datalistrow']//preceding-sibling::td//input"}
   (Session info: chrome=94.0.4606.81)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-AUUJL9B', ip: '192.168.1.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0768afdd61f266cea4d7e0fbf6a3de52
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd64a37b176a07379ec58d6cb1d9ea9
 *** Element info: {Using=xpath, value=//a[text()='Ui Ui']//parent::td[@class='datalistrow']//preceding-sibling::td//input}
 	at com.crm.qa.testcases.ContactsPageTest.selectMultipleContactsTest(ContactsPageTest.java:58)
 ]]></failure>
@@ -269,12 +270,12 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0768afdd61f266cea4d7e0fbf6a3de52)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0768afdd61f266cea4d7e0fbf6a3de52)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bbd64a37b176a07379ec58d6cb1d9ea9)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bbd64a37b176a07379ec58d6cb1d9ea9)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
 Found Element By : By.xpath: //a[contains(text(),'Contacts')]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0768afdd61f266cea4d7e0fbf6a3de52)] -> xpath: //a[contains(text(),'Contacts')]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0768afdd61f266cea4d7e0fbf6a3de52)] -> xpath: //a[contains(text(),'Contacts')]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (bbd64a37b176a07379ec58d6cb1d9ea9)] -> xpath: //a[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (bbd64a37b176a07379ec58d6cb1d9ea9)] -> xpath: //a[contains(text(),'Contacts')]]
 Trying to find Element By : By.xpath: //a[text()='Ui Ui']//parent::td[@class='datalistrow']//preceding-sibling::td//input
 Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Ui Ui']//parent::td[@class='datalistrow']//preceding-sibling::td//input"}
   (Session info: chrome=94.0.4606.81)
@@ -282,19 +283,19 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-AUUJL9B', ip: '192.168.1.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0768afdd61f266cea4d7e0fbf6a3de52
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\prata\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd64a37b176a07379ec58d6cb1d9ea9
 *** Element info: {Using=xpath, value=//a[text()='Ui Ui']//parent::td[@class='datalistrow']//preceding-sibling::td//input}
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 27742
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 46312
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:15:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:28:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateCreateNewContactTest[Mr., Marry, John, Google](1)" classname="com.crm.qa.testcases.ContactsPageTest" time="3.343">
+  <testcase name="validateCreateNewContactTest[Mr., Marry, John, Google](1)" classname="com.crm.qa.testcases.ContactsPageTest" time="3.072">
     <system-out><![CDATA[Sheet path C:\Users\prata\git\SeleniumTestFramework\SampleTestFrameworkGPS\src\main\java\com\crm\qa\testData\FreeCRMTestData.xlsx
 Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
@@ -304,14 +305,14 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
 Found Element By : By.xpath: //a[contains(text(),'Contacts')]
 Trying to find Element By : By.xpath: //a[@title='New Contact']
 Found Element By : By.xpath: //a[@title='New Contact']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> xpath: //a[@title='New Contact']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> xpath: //a[@title='New Contact']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> xpath: //a[@title='New Contact']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> xpath: //a[@title='New Contact']]
 Trying to find Element By : By.name: title
 Found Element By : By.name: title
 Trying to find Element By : By.name: title
@@ -320,8 +321,8 @@ Trying to find Element By : By.name: title
 Found Element By : By.name: title
 Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
 Found Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
-Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
-Clicked on: [[[[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
 Trying to find Element By : By.id: first_name
 Found Element By : By.id: first_name
 Trying to find Element By : By.id: surname
@@ -330,18 +331,18 @@ Trying to find Element By : By.name: client_lookup
 Found Element By : By.name: client_lookup
 Trying to find Element By : By.xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']
 Found Element By : By.xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (1b967f2297d686a14c5782825fa28188)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6627c8a7376ec37dd57c5d1a8a7f000b)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 27826
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 6717
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:15:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:29:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateCreateNewContactTest[Dr., Peter, Parker, Marvel](2)" classname="com.crm.qa.testcases.ContactsPageTest" time="3.318">
+  <testcase name="validateCreateNewContactTest[Dr., Peter, Parker, Marvel](2)" classname="com.crm.qa.testcases.ContactsPageTest" time="3.001">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 Trying to find Element By : By.name: username
@@ -350,14 +351,14 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
 Found Element By : By.xpath: //a[contains(text(),'Contacts')]
 Trying to find Element By : By.xpath: //a[@title='New Contact']
 Found Element By : By.xpath: //a[@title='New Contact']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> xpath: //a[@title='New Contact']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> xpath: //a[@title='New Contact']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> xpath: //a[@title='New Contact']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> xpath: //a[@title='New Contact']]
 Trying to find Element By : By.name: title
 Found Element By : By.name: title
 Trying to find Element By : By.name: title
@@ -366,8 +367,8 @@ Trying to find Element By : By.name: title
 Found Element By : By.name: title
 Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
 Found Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
-Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
-Clicked on: [[[[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
 Trying to find Element By : By.id: first_name
 Found Element By : By.id: first_name
 Trying to find Element By : By.id: surname
@@ -376,18 +377,18 @@ Trying to find Element By : By.name: client_lookup
 Found Element By : By.name: client_lookup
 Trying to find Element By : By.xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']
 Found Element By : By.xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (32fab3dadb4ef8840b45b5b4ce36f7c5)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (25f65fb2483b92674235fd48e149bcfc)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 8575
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 19921
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:16:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:29:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateCreateNewContactTest[Mrs., Anna, Mark, Microsoft](3)" classname="com.crm.qa.testcases.ContactsPageTest" time="4.109">
+  <testcase name="validateCreateNewContactTest[Mrs., Anna, Mark, Microsoft](3)" classname="com.crm.qa.testcases.ContactsPageTest" time="2.87">
     <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com/'
 Navigated to:'https://classic.crmpro.com/'
 Trying to find Element By : By.name: username
@@ -396,14 +397,14 @@ Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@type='submit']
 Found Element By : By.xpath: //input[@type='submit']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> xpath: //input[@type='submit']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> xpath: //input[@type='submit']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> xpath: //input[@type='submit']]
 Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
 Found Element By : By.xpath: //a[contains(text(),'Contacts')]
 Trying to find Element By : By.xpath: //a[@title='New Contact']
 Found Element By : By.xpath: //a[@title='New Contact']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> xpath: //a[@title='New Contact']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> xpath: //a[@title='New Contact']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> xpath: //a[@title='New Contact']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> xpath: //a[@title='New Contact']]
 Trying to find Element By : By.name: title
 Found Element By : By.name: title
 Trying to find Element By : By.name: title
@@ -412,8 +413,8 @@ Trying to find Element By : By.name: title
 Found Element By : By.name: title
 Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mrs."]
 Found Element By : By.xpath: .//option[normalize-space(.) = "Mrs."]
-Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
-Clicked on: [[[[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
 Trying to find Element By : By.id: first_name
 Found Element By : By.id: first_name
 Trying to find Element By : By.id: surname
@@ -422,14 +423,14 @@ Trying to find Element By : By.name: client_lookup
 Found Element By : By.name: client_lookup
 Trying to find Element By : By.xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']
 Found Element By : By.xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (a3b60b9bebc7e550e95b00d855194f78)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (91aefd114aa523e9c2140151050817ac)] -> xpath: //input[@value='Load From Company']//following-sibling::input[@value='Save']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 13613
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 41609
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 17, 2021 4:16:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 17, 2021 5:29:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
